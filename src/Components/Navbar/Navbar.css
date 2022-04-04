@@ -1,0 +1,24 @@
+.navs{
+   display: grid;
+   grid-template-columns: repeat(2,60px) 85px repeat(2,50px);
+   grid-column-gap: 30px;
+   
+}
+NavLink{
+    text-decoration: none;
+}
+.navstyle{
+    background-color: rgb(246, 243, 243);
+}
+.activeStyle{
+   border-bottom: 3px solid rgb(118, 4, 27);
+    text-decoration: none;
+    border-radius: 5px;
+    color: rgb(10, 9, 9);
+    font-size: 16px;
+    padding: 0px 5px 5px 5px;
+}
+.NormalLink{
+    color: rgb(1, 1, 1);
+    font-size: 16px;
+}
