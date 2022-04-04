@@ -15,7 +15,8 @@ const Home = () => {
                       <img src={comment.img} alt="" />
                   </div>
                   <h1>{comment.name}</h1>
-              </div>)
+              </div>
+              )
           }
            
             </div>

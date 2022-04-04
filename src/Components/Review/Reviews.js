@@ -12,8 +12,16 @@ const Reviews = () => {
                <div className="review-container">
                {
                     Reviews.map(perReviews =>
-                        
-                        <div><img src={perReviews.img} alt="" /></div>
+                        <div>
+                             <div>
+                            <img src={perReviews.img} alt="" />
+                            </div>
+                            <div className='reviewtext'>
+                        <h3>{perReviews.name}</h3>
+                        <h4>{perReviews.rating}</h4>
+                        <p>{perReviews.comment}</p>
+                            </div>
+                        </div>                       
                     
                     )
                 }
