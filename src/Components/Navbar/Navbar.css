@@ -1,6 +1,6 @@
 .navs{
    display: grid;
-   grid-template-columns: repeat(2,60px) 85px repeat(2,50px);
+   grid-template-columns: 60px 65px 85px repeat(2,45px);
    grid-column-gap: 30px;
    
 }
@@ -14,8 +14,9 @@ NavLink{
    border-bottom: 3px solid rgb(118, 4, 27);
     text-decoration: none;
     border-radius: 5px;
-    color: rgb(10, 9, 9);
+    color: #a65000;
     font-size: 16px;
+    font-weight: 500;
     padding: 0px 5px 5px 5px;
 }
 .NormalLink{
