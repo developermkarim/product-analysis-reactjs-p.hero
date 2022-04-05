@@ -14,7 +14,7 @@ const Reviews = () => {
                <div className="review-container">
                {
                     Reviews.map(perReviews => 
-                        <div className='review-info text-center col-5'>
+                        <div className='review-info text-center col-12 col-md-5'>
                              <div className='review-img'>
                             <img src={perReviews.img} alt="" />
                             </div>

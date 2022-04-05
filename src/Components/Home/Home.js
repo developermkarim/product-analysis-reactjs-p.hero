@@ -10,8 +10,8 @@ const Home = () => {
     const [Reviews, SetReviews] = useReviews();
     return (
         <div className='container'>
-           <div className="banner-part m-auto d-flex mt-5 ">
-               <div className="banner-text col-8 mt-4 ms-">
+           <div className="banner-part m-auto d-flex mt-5">
+               <div className="banner-text col-8 mt-4">
                <h1>One Stop Cafe</h1>
                <p>One Stop Cafe mission is to provide the highest quality food and beverage especially the coffee market for a reasonable price and homemade products. Our cafe wants to be in the business of helping the customers to relieve their daily stresses activity by providing piece of mind through great ambience, convenient location and the best customer service.</p>
                <button onClick={()=>navigation('/aboutUs')} className='btn btn-warning pointer' style={{ background: '#a65000',color:'white'}}>Learn More</button>

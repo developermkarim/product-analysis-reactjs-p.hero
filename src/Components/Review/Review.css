@@ -18,3 +18,11 @@
   height: 160px;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 768px) {
+  .review-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+  }
+}

@@ -3,7 +3,25 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-
+@media screen and (max-width: 962px) {
+     .reviewer{
+      
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+  }
+  @media screen and (max-width: 768px) {
+    .banner-part{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+       
+    }
+    .banner-text{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+ }
 .cardStyle{
     display: grid;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
