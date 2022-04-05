@@ -7,8 +7,8 @@
 * The review data of this project are loaded from FakeData reviews.json in Public.
 * Custom Hook is used in this project name Hook Folder.
 * There are 3 reviews availabe in Home page and 6 reviews in Review page.
-* 3 Important questions are added in blog page.
-* 4 React-charts (line, bar and pie) are set up in Dashboard.
+*  Important questions are added in blog page.
+*  React-charts (line, bar and pie) are set up in Dashboard.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
