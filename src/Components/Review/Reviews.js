@@ -1,10 +1,9 @@
 import React from 'react';
 import useReviews from '../../Hooks/useReview';
 import './Review.css'
-// import useReviews from '../../Hooks/useReview';
 const Reviews = () => {
     const [Reviews, SetReviews] = useReviews();
-
+console.log(SetReviews);
     return( 
             <div className='container my-5'>
                 <div className='row text-center '>

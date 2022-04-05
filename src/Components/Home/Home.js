@@ -8,6 +8,7 @@ import './Home.css'
 const Home = () => {
     const navigation = useNavigate();
     const [Reviews, SetReviews] = useReviews();
+    console.log(SetReviews);
     return (
         <div className='container'>
            <div className="banner-part m-auto d-flex mt-5">
