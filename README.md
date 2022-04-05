@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-### This Project Live site Link  [One-Stop-Coffee](https://one-stop-coffee-shop.netlify.app/).
+### This Project Live site Link  [One-Stop-Cafe](https://one-stop-cafe-shop.netlify.app/).
 
 ## the main Topics that I included in this project.
 * This is an online coffee Shop.

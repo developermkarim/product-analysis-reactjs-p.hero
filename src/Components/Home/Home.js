@@ -3,7 +3,7 @@ import useReviews from '../../Hooks/useReview';
 import BannerImg from '../../assets/images/coffe-banner.jpg'
 import { useNavigate } from 'react-router-dom';
 import './Home.css'
-import { Card } from 'react-bootstrap';
+
 
 const Home = () => {
     const navigation = useNavigate();
@@ -13,10 +13,10 @@ const Home = () => {
            <div className="banner-part m-auto d-flex mt-5">
                <div className="banner-text col-8 mt-4">
                <h1>One Stop Cafe</h1>
-               <p>One Stop Cafe mission is to provide the highest quality food and beverage especially the coffee market for a reasonable price and homemade products. Our cafe wants to be in the business of helping the customers to relieve their daily stresses activity by providing piece of mind through great ambience, convenient location and the best customer service.</p>
+               <p style={{maxWidth:'600px'}}>One Stop Cafe mission is to provide the highest quality food and beverage especially the coffee market for a reasonable price and homemade products. Our cafe wants to be in the business of helping the customers to relieve their daily stresses activity by providing piece of mind through great ambience, convenient location and the best customer service.</p>
                <button onClick={()=>navigation('/aboutUs')} className='btn btn-warning pointer' style={{ background: '#a65000',color:'white'}}>Learn More</button>
                </div>
-              <div className="bannerimg col-4">
+              <div className="bannerimg col-4 mt-5">
                   <img src={BannerImg} alt="" width={300} height={300}/>
               </div>
            </div>
@@ -45,7 +45,7 @@ const Home = () => {
         
           </div>
             <div className="btn-review mt-3 pb-4 text-center">
-              <button onClick={()=>navigation('/reviewss')} className="btn btn-warning" style={{ background: '#a65000',color:'white'}}>See all Reviews</button>
+              <button onClick={()=>navigation('/reviews')} className="btn btn-warning" style={{ background: '#a65000',color:'white'}}>See all Reviews</button>
           </div>
             </div>
         </div>

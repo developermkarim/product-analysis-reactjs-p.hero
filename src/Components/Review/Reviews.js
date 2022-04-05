@@ -1,6 +1,5 @@
 import React from 'react';
 import useReviews from '../../Hooks/useReview';
-import Review from './Review';
 import './Review.css'
 // import useReviews from '../../Hooks/useReview';
 const Reviews = () => {

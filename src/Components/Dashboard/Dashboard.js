@@ -94,10 +94,13 @@ const Dashboard = () => {
         }
       ];
     return (
-        <div className="line-chart">
-            <div>
-            <h3>Month Wise Sell</h3>
-            <LineChart width={630} height={250} data={timeZone}
+        <div className="line-chart container">
+          <div className="row">
+
+         
+            <div className='col-6'>
+            <h3 className='text-center py-4'>Month Wise Sell</h3>
+            <LineChart width={500} height={250} data={timeZone}
   margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
   <CartesianGrid strokeDasharray="3 3" />
   <XAxis dataKey="month" />
@@ -107,8 +110,9 @@ const Dashboard = () => {
   <Line type="monotone" dataKey="sell" stroke="#824d" />
 </LineChart>
             </div>
-          <div className="area-chart">
-          <AreaChart width={730} height={250} data={timeZone}
+          <div className="area-chart col-6">
+          <h3 className='text-center py-4'>Investment vs Revenure</h3>
+          <AreaChart width={530} height={250} data={timeZone}
   margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
   <defs>
     <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -129,11 +133,11 @@ const Dashboard = () => {
   <Area type="monotone" dataKey="revenue" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
 </AreaChart>
           </div>
+         
 
-
-          <div className='Investment'>
-              <h3>Investment VS Revenue</h3>
- <BarChart width={730} height={250} data={timeZone}>
+          <div className='Investment col-6 my-5'>
+              <h3 className='text-center py-4'>Investment VS Revenue</h3>
+ <BarChart width={550} height={250} data={timeZone}>
   <CartesianGrid strokeDasharray="3 3" />
   <XAxis dataKey="month" />
   <YAxis />
@@ -143,9 +147,9 @@ const Dashboard = () => {
   <Bar dataKey="revenue" fill="#82ca9d" />
 </BarChart>
           </div>
-          <div className="pie-chart">
-              <h3>Investment vs revenue in Pie Chart</h3>
-              <PieChart width={730} height={250}>
+          <div className="pie-chart col-6 my-5">
+              <h3 className='text-center py-4'>Investment vs revenue in Pie Chart</h3>
+              <PieChart width={530} height={250}>
 <Tooltip />
   
   <Pie data={data01} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
@@ -153,6 +157,7 @@ const Dashboard = () => {
 </PieChart>
 
           </div>
+         </div>
         </div>
     );
 };

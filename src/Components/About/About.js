@@ -1,14 +1,62 @@
 import React from 'react';
-
+import './About.css'
+ import img01 from '../../assets/images/img03.jpg';
+ import img02 from '../../assets/images/img07.jpg';
+ import img03 from '../../assets/images/img08.jpg';
+ 
 const About = () => {
     return (
-        <div>
-            <h3>About Us</h3>
-            <p>Coffee Circus will provide a friendly, comfortable atmosphere where the customer can receive quality food, service and entertainment at a reasonable price. The coffee house will offer a variety of choices to the customers. Coffee and tea of all sorts will be offered. Juice, soda, and non-alcoholic beverages also will be available. Both wine and beer will be on sale. Coffee Circus will serve breakfast, lunch and dinner.
-<p>There will be nightly entertainment featuring acoustic jazz, blues and folk music. On selected nights there will be poetry readings and an open microphone. The walls will be used as an art gallery and from time to time there will be an artist in residence.</p>
+        <div className='container'>
+            <div className="row">
 
-<p>The site contains a 3,525 square foot building which was used as a sports bar and restaurant. The building has substantial parking. The site shares the Hart Plaza with Folk Limited and Ryan Sports. Remodeling will consist of removing the existing booths, new carpet and some new furniture. The kitchen and bathrooms will require only minimum remodeling. The property is currently zoned for restaurants.</p>
-</p>
+            <div className="about-section">
+  <h1>About Us</h1>
+  <h4>Eating is one of life's pleasure and pride  so is cooking and serving <br />good food to others</h4>
+  <p>Our Cafe is generally an establishment where the public may obtain meals or refreshments.</p>
+</div>
+
+<h2 className='py-5 text-center'>Our Team</h2>
+<div className="allcolumn">
+  <div className="column">
+    <div className="card">
+      <img src={img01} alt="Jane"/>
+      <div className="container">
+        <h2>Mahmodul Karim</h2>
+        <p className="title">Kitchen manager</p>
+        <p>Efficient kitchens are well-organized kitchens. Most kitchens are organized into stations or sections </p>
+        <p>mkarimcu12@gmail.com</p>
+        <p><button className="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div className="column">
+    <div className="card">
+      <img src={img02} alt="Mike"/>
+      <div className="container">
+        <h2>Jahidul Islam</h2>
+        <p className="title">Dining room or restaurant manager</p>
+        <p>restaurant and dining room managers having their own teams of servers, hosts/hostesses, bussers, and bartenders to serve guests.</p>
+        <p>jahidul@gmail.com</p>
+        <p><button className="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div className="column">
+    <div className="card">
+      <img src={img03} alt="John"/>
+      <div className="container">
+        <h2>John Doe</h2>
+        <p className="title">Kitchen Porter</p>
+        <p> He is training and experience as the chefs. This person is in charge of simple but important tasks involved in the basic preparations of the food.</p>
+        <p>john@example.com</p>
+        <p><button className="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
         </div>
     );
 };
