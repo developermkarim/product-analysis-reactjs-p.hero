@@ -2,6 +2,7 @@ import React from 'react';
 import useReviews from '../../Hooks/useReview';
 import BannerImg from '../../assets/images/coffe-banner.jpg'
 import { useNavigate } from 'react-router-dom';
+import './Home.css'
 import { Card } from 'react-bootstrap';
 
 const Home = () => {
@@ -20,17 +21,20 @@ const Home = () => {
               </div>
            </div>
 
-            <div className="review-container">
-                <h3>Reviews</h3>
+            <div className="container review-container mt-5">
+                <h3 className='review-header text-center pb-4'>what our clients say</h3>
                 <div className="reviewer">
 
           {
               Reviews.slice(0,3).map(comment => 
               <div className='Card cardStyle text-center'>
                   <div className="img">
-                      <img src={comment.img} alt="" width={100} height={100}/>
+                      <img className='img-fluid' src={comment.img} alt="" width={100} height={100}/>
                   </div>
                   <div className="card-text">
+                      <div className="ratin">
+                         <p>{comment.ratings}</p> 
+                      </div>
                        <h4>{comment.name}</h4>
                       <p>{comment.comment}</p>
                   </div>
@@ -38,8 +42,11 @@ const Home = () => {
               </div>
               )
           }
+        
           </div>
-           
+            <div className="btn-review mt-3 pb-4 text-center">
+              <button onClick={()=>navigation('/reviewss')} className="btn btn-warning" style={{ background: '#a65000',color:'white'}}>See all Reviews</button>
+          </div>
             </div>
         </div>
     );

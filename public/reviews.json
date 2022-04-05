@@ -1,30 +1,30 @@
 [
     {"id":1, "name":"Jayed Khan",
         "stock": 20,
-        "ratings": 4,"comment":"I really like the atmosphere, good coffee, and nice interior. This is a good place to study or chill with friends. The drinks and foods were all tasty and worthwhile.","img":"images/img01.jpg"},
+        "ratings": "★★★★☆ 4.4","comment":"I really like the atmosphere, good coffee, and nice interior. This is a good place to study or chill with friends. The drinks and foods were all tasty and worthwhile.So to take the real coffee taste come to one stop cafe","img":"images/img01.jpg"},
     {"id":2, "name":"Omar Sani",
         "stock": 19,
-        "ratings": 5,"comment":"This coffee shop is my favorite place to hang and do my works. I really like this place because it has a good ambiance and not too crowded as well. The coffee and pastries that they had were so delicious. ","img":"images/img02.jpg"},
+        "ratings": "★★★★★ 5","comment":"This coffee shop is my favorite place to hang and do my works. I really like this place because it has a good ambiance and not too crowded as well. The coffee and pastries that they had were so delicious. ","img":"images/img02.jpg"},
     {"id":3, "name":"Chekha Bappa",
         "stock": 20,
-        "ratings": 4,"comment":"If you're looking for a place where to relax and read some novels or whatever, this coffee shop would be the best. They have the best coffee available and even some fresh baked goods as well","img":"images/img03.jpg"},
+        "ratings":"★★★★☆ 4.6","comment":"If you're looking for a place where to relax and read some novels or whatever, this coffee shop would be the best. They have the best coffee available and even some fresh baked goods as well. Rocemmended to you to be with this shop","img":"images/img03.jpg"},
     {"id":4, "name":"Arefin Shova",
         "stock": 10,
-        "ratings": 5,"comment":"Unquestionably, the best coffee shop in the area! I'm so thankful that finally, I was able to find this spot for some good coffee just in time. The atmosphere inside this coffee shop was very vibrant and relaxing. I will definitely rate them a five-star for everything that they provided. Truly amazing! Thank you so much, guys!","img":"images/img04.jpg"},
+        "ratings": "★★★☆☆ 3.2","comment":"Unquestionably, the best coffee shop in the area! I'm so thankful that finally, I was able to find this spot for some good coffee just in time. The atmosphere inside this coffee shop was very vibrant and relaxing. I will definitely rate them a five-star for everything that they provided. Truly amazing! Thank you so much, guys!","img":"images/img04.jpg"},
 
     {"id":5, "name":"Hero Alam",
         "stock": 11,
-        "ratings": 4,"comment":"This coffee shop has it all. The ambiance, interior designs, good coffee, tasty foods, and fast wi-fi connection. Prices are a bit high but once you already taste it, you understand why. It is simply one of the best and my favorites coffee shop in town. Overall, it's a good shop for studying and relaxing. Highly recommended!","img":"images/img05.jpg"},
+        "ratings": "★★★★☆ 4.6","comment":"This coffee shop has it all. The ambiance, interior designs, good coffee, tasty foods, and fast wi-fi connection. Prices are a bit high but once you already taste it, you understand why. It is simply one of the best and my favorites coffee shop in town. Overall, it's a good shop for studying and relaxing. Highly recommended!","img":"images/img05.jpg"},
 
     {"id":6, "name":"Riaz Khan", 
         "stock": 19,
-        "ratings": 3,"comment":"A unique coffee shop to study and read books. No loud noises which will help you a lot to concentrate on what you do. They do have a variety of food and drinks you can select from. I honestly love the great interior all over the place. Trust me! You will never be disappointed for sure! A memorable place to relax.","img":"images/img06.jpg"},
+        "ratings": "★★★★☆ 4.8","comment":"A unique coffee shop to study and read books. No loud noises which will help you a lot to concentrate on what you do. They do have a variety of food and drinks you can select from. I honestly love the great interior all over the place. Trust me! You will never be disappointed for sure! A memorable place to relax.","img":"images/img06.jpg"},
 
     {"id":7, "name":"Misha Saodagor",
         "stock": 1,
-        "ratings": 4,"comment":"This place is amazing! They offered the best coffee and showed the best attitude to its costumers. Internet connection is very fast and is unlimited as well. This place is indeed perfect for studying and chilling out. It was very quiet and air-conditioned. I just want to keep coming back to this place. Thank you!","img":"images/img07.jpg"},
+        "ratings": "★★★★☆ 4","comment":"This place is amazing! They offered the best coffee and showed the best attitude to its costumers. Internet connection is very fast and is unlimited as well. This place is indeed perfect for studying and chilling out. It was very quiet and air-conditioned. I just want to keep coming back to this place. Thank you!","img":"images/img07.jpg"},
 
     {"id":8, "name":"Rajjak Mia",
         "stock": 7,
-        "ratings": 4,"comment":" I would probably say that this coffee shop is a must for coffee lovers! The service was good, and the variety of coffee served in the ambiance was very satisfying. If you like your coffee shops, then this is a must-visit! We will be back again!.So New Man to take The taste, come huury up","img":"images/img08.jpg"}
+        "ratings": "★★★☆☆ 3.2" ,"comment":" I would probably say that this coffee shop is a must for coffee lovers! The service was good, and the variety of coffee served in the ambiance was very satisfying. If you like your coffee shops, then this is a must-visit! We will be back again!.So New Man to take The taste, come huury up","img":"images/img08.jpg"}
  ]
