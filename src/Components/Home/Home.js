@@ -22,17 +22,20 @@ const Home = () => {
 
             <div className="review-container">
                 <h3>Reviews</h3>
-                <div className="reviewer d-flex">
+                <div className="reviewer">
 
           {
               Reviews.slice(0,3).map(comment => 
-              <Card className='Card text-center'>
+              <div className='Card cardStyle text-center'>
                   <div className="img">
                       <img src={comment.img} alt="" width={100} height={100}/>
                   </div>
-                  <h4>{comment.name}</h4>
-                  <p>{comment.comment}</p>
-              </Card>
+                  <div className="card-text">
+                       <h4>{comment.name}</h4>
+                      <p>{comment.comment}</p>
+                  </div>
+                 
+              </div>
               )
           }
           </div>

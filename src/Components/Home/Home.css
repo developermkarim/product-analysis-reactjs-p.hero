@@ -1,0 +1,8 @@
+.reviewer{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.cardStyle{
+    display: grid;
+    grid-template-columns: 2fr;
+}
