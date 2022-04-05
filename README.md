@@ -1,5 +1,15 @@
 # Getting Started with Create React App
 
+This Project Live site Link  [One-Stop-Coffee](https://one-stop-coffee-shop.netlify.app/).
+
+## the main Topics that I included in this project.
+1. This is an online coffee Shop.
+2. The review data of this project are loaded from FakeData reviews.json in Public folder.
+3. Custom Hook is used in this project name Hook Folder.
+4. There are 3 reviews availabe in Home page and 6 reviews in Review page.
+5. 3 Important questions are added in blog page.
+6. 4 React-charts (line, bar and pie) are set up in Dashboard.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
